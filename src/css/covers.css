@@ -38,9 +38,10 @@ ul {
 
   white-space: nowrap;
   animation-name: marqueeLine;
-  animation-duration: 15s;
+  animation-duration: 25s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
 @keyframes marqueeLine {
